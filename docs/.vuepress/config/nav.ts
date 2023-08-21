@@ -49,8 +49,8 @@ export default <Array<NavItem>>[
         link: "/pages/1438b6/",
       },
       {
-        text: "部署",
-        link: "/deploy/",
+        text: "Kubernetes",
+        link: "/pages/01ad38/",
       },
       {
         text: "更多参考",
