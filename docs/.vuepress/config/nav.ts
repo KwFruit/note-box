@@ -104,19 +104,19 @@ export default <Array<NavItem>>[
     items: [
       {
         text: "Oracle",
-        link: "/start/",
+        link: "/pages/bf1d71/",
       },
       {
         text: "Mysql",
-        link: "/deploy/",
+        link: "/pages/8d87bf/",
       },
       {
         text: "Redis",
-        link: "/more/",
+        link: "/pages/5b6cca/",
       },
       {
         text: "MongoDB",
-        link: "/more/",
+        link: "/pages/2c94a8/",
       },
     ],
   },
