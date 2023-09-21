@@ -9,12 +9,12 @@ export default <Array<NavItem>>[
     link: "/java/",
     items: [
       {
-        text: "项目配置",
+        text: "Java EE",
         link: "/java/",
       },
       {
-        text: "部署",
-        link: "/deploy/",
+        text: "设计模式",
+        link: "/pages/4fdf68/",
       },
       {
         text: "更多参考",
@@ -53,8 +53,8 @@ export default <Array<NavItem>>[
         link: "/pages/01ad38/",
       },
       {
-        text: "更多参考",
-        link: "/more/",
+        text: "DevOps GitLab+Jenkins版",
+        link: "/pages/f3753d/",
       },
     ],
   },
@@ -63,8 +63,8 @@ export default <Array<NavItem>>[
     link: "/middleware/",
     items: [
       {
-        text: "项目配置",
-        link: "/start/",
+        text: "Elasticsearch",
+        link: "/pages/ba1f82/",
       },
       {
         text: "部署",

@@ -2,7 +2,7 @@
 home: true
 heroImage: /assets/img/logo.png
 heroText: KwFruit个人知识库
-tagline: 🎉收集与记录是知识管理的起点,知识管理还需整理与输出。
+tagline: 🚀您好，欢迎来到我的知识库，希望这里能给您带来帮助。感谢您的访问！
 actionText: 立刻进入 →
 actionLink: /archives/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
