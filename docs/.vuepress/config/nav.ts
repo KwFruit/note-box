@@ -50,7 +50,7 @@ export default <Array<NavItem>>[
       },
       {
         text: "Kubernetes",
-        link: "/pages/01ad38/",
+        link: "/pages/fc4424/",
       },
       {
         text: "DevOps GitLab+Jenkins版",
