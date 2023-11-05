@@ -35,6 +35,7 @@ export default <VdoingThemeConfig>{
   // sidebarOpen: false, // 初始状态是否打开左侧边栏，默认true
   pageButton: true, // 是否显示快捷翻页按钮，默认true
   pageStyle: 'line',
+  defaultMode: 'dark',
   sidebarOpen: true, // 初始状态是否打开侧边栏，默认true
   sidebar: { mode: "structuring", collapsable: true }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义
 
