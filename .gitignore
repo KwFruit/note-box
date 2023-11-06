@@ -1,5 +1,15 @@
-/node_modules
-/dist
-/.vscode
-*.log
 
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+/node_modules/*
+node_modules/*
+### VS Code ###
+.vscode/
