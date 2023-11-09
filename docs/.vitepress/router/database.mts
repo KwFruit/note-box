@@ -35,5 +35,15 @@ export const databasemts = [
         { text: 'Redis6.0新功能', link: '/060.database/0030.Redis/0028.Redis6.0新功能' },
 
       ]
-    }
+    },
+    {
+        text: 'MongoDB',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: '概念篇', link: '/060.database/0040.MongoDB/0001.MongoDB 概念篇.md' },
+          { text: '简单CRUD篇', link: '/060.database/0040.MongoDB/0002.MongoDB 简单CRUD篇.md' },
+          { text: '简单部署篇', link: '/060.database/0040.MongoDB/0003.MongoDB 简单部署篇.md' },
+        ]
+      }
   ]

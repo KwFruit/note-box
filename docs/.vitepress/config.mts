@@ -22,6 +22,8 @@ export default defineConfig({
         text: '数据库🐣',
         items: [
           { text: 'Redis', link: '/060.database/0030.Redis/0001.安装步骤.md' },
+          { text: 'MongoDB', link: '/060.database/0040.MongoDB/0001.MongoDB 概念篇.md'  },
+
         ]
       },
       {
