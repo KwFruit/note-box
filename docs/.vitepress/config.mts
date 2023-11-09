@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 import { javamts } from './router/Java.mjs'
 import { CloudNative } from './router/CloudNative.mjs'
 import { middlewaremts } from './router/Middleware.mjs'
+import { databasemts } from './router/database.mjs'
 
 
 export default defineConfig({
@@ -14,13 +15,19 @@ export default defineConfig({
       {
         text: 'Java🌞',
         items: [
-          { text: '设计模式', link: '/Java/设计模式/0001.UML图.md' },
+          { text: '设计模式', link: '/010.Java/设计模式/0001.UML图.md' },
+        ]
+      },
+      {
+        text: '数据库🐣',
+        items: [
+          { text: 'Redis', link: '/060.database/0030.Redis/0001.安装步骤.md' },
         ]
       },
       {
         text: 'Linux🍈',
         items: [
-          { text: '设计模式', link: '/Java/设计模式/0001.UML图.md' },
+          { text: '设计模式', link: '/010.Java/设计模式/0001.UML图.md' },
         ]
       },
       {
@@ -41,7 +48,8 @@ export default defineConfig({
       },
     ],
     sidebar: {
-      '/Java/设计模式/': javamts,
+      '/010.Java/设计模式/': javamts,
+      '/060.database/': databasemts,
       '/030.CloudNative/': CloudNative,
       '/040.middleware/': middlewaremts,
     },

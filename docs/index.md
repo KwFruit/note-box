@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text:  快速开始
-      link: /Java/设计模式/0001.UML图.md
+      link: /010.Java/设计模式/0001.UML图.md
   image:
     src: /vitepress-logo-large.webp
     alt: Note Box
