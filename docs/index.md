@@ -2,7 +2,7 @@
 layout: home
 
 title: Note Box
-titleTemplate: Personal back-end documentation station
+titleTemplate: 个人技术知识库
 
 hero:
   name: Note Box
