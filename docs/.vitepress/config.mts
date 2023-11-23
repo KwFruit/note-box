@@ -50,10 +50,10 @@ export default defineConfig({
       },
     ],
     sidebar: {
-      '/010.Java/设计模式/': javamts,
-      '/060.database/': databasemts,
-      '/030.CloudNative/': CloudNative,
-      '/040.middleware/': middlewaremts,
+      '/course/010.Java/设计模式/': javamts,
+      '/course/060.database/': databasemts,
+      '/course/030.CloudNative/': CloudNative,
+      '/course/040.middleware/': middlewaremts,
     },
      // 在 sidebar 后添加
      outlineTitle: '本页目录',
