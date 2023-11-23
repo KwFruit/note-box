@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text:  快速开始
-      link: /010.Java/设计模式/0001.UML图.md
+      link: /course/010.Java/设计模式/0001.UML图.md
   image:
     src: /saturn.png
     alt: Note Box

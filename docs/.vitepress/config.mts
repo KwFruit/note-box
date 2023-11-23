@@ -15,14 +15,14 @@ export default defineConfig({
       {
         text: 'Java🌞',
         items: [
-          { text: '设计模式', link: '/010.Java/设计模式/0001.UML图.md' },
+          { text: '设计模式', link: '/course/010.Java/设计模式/0001.UML图.md' },
         ]
       },
       {
         text: '数据库🐣',
         items: [
-          { text: 'Redis', link: '/060.database/0030.Redis/0001.安装步骤.md' },
-          { text: 'MongoDB', link: '/060.database/0040.MongoDB/0001.MongoDB 概念篇.md'  },
+          { text: 'Redis', link: '/course/060.database/0030.Redis/0001.安装步骤.md' },
+          { text: 'MongoDB', link: '/course/060.database/0040.MongoDB/0001.MongoDB 概念篇.md'  },
 
         ]
       },
@@ -35,16 +35,16 @@ export default defineConfig({
       {
         text: '云原生🍏',
         items: [
-          { text: 'Docker', link: '/030.CloudNative/0010.Docker/0010.Docker-基础篇.md' },
-          { text: 'Kubernetes', link: '/030.CloudNative/0020.Kubernetes/0001.Kubernetes 实战入门.md' },
-          { text: 'DevOps GitLab+Jenkins版', link: '/030.CloudNative/0030.DevOpsGitLab+Jenkins版/0001.搭建Gitlab服务器.md' },
+          { text: 'Docker', link: '/course/030.CloudNative/0010.Docker/0010.Docker-基础篇.md' },
+          { text: 'Kubernetes', link: '/course/030.CloudNative/0020.Kubernetes/0001.Kubernetes 实战入门.md' },
+          { text: 'DevOps GitLab+Jenkins版', link: '/course/030.CloudNative/0030.DevOpsGitLab+Jenkins版/0001.搭建Gitlab服务器.md' },
 
         ]
       },
       {
         text: '中间件🍉',
         items: [
-          { text: 'Elasticsearch', link: '/040.middleware/0010.Elasticsearch/0001.Elasticsearch安装.md' },
+          { text: 'Elasticsearch', link: '/course/040.middleware/0010.Elasticsearch/0001.Elasticsearch安装.md' },
 
         ]
       },
