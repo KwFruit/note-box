@@ -4,7 +4,7 @@ import { javamts } from './router/Java.mjs'
 import { CloudNative } from './router/CloudNative.mjs'
 import { middlewaremts } from './router/Middleware.mjs'
 import { databasemts } from './router/database.mjs'
-
+import {  linuxmts } from './router/linux.mjs'
 
 export default defineConfig({
   title: "Note Box",
@@ -15,7 +15,7 @@ export default defineConfig({
       {
         text: 'Java🌞',
         items: [
-          { text: '设计模式', link: '/course/010.Java/设计模式/0001.UML图.md' },
+          { text: '设计模式', link: '/course/1.Java/设计模式/0001.UML图.md' },
         ]
       },
       {
@@ -26,12 +26,12 @@ export default defineConfig({
 
         ]
       },
-      // {
-      //   text: 'Linux🍈',
-      //   items: [
-      //     { text: '设计模式', link: '/010.Java/设计模式/0001.UML图.md' },
-      //   ]
-      // },
+      {
+        text: 'Linux🍈',
+        items: [
+          { text: 'Shell', link: '/course/2.Linux/Shell/1._Shell概述.md' },
+        ]
+      },
       {
         text: '云原生🍏',
         items: [
@@ -50,10 +50,12 @@ export default defineConfig({
       },
     ],
     sidebar: {
-      '/course/010.Java/设计模式/': javamts,
-      '/course/060.database/': databasemts,
+      '/course/1.Java/设计模式/': javamts,
+      '/course/2.Linux/Shell/': linuxmts,
       '/course/030.CloudNative/': CloudNative,
       '/course/040.middleware/': middlewaremts,
+      '/course/060.database/': databasemts,
+
     },
      // 在 sidebar 后添加
      outlineTitle: '本页目录',
@@ -65,7 +67,7 @@ export default defineConfig({
        next: '下一页'
      },
      footer: {
-      message: 'Released under the MIT License.',
+      // message: 'Released under the MIT License.',
       copyright: 'Copyright © 2023-present kwfruit'
     },
     search: {

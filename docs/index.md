@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text:  快速开始
-      link: /course/010.Java/设计模式/0001.UML图.md
+      link: /course/1.Java/设计模式/0001.UML图.md
   image:
     src: /saturn.png
     alt: Note Box
@@ -48,7 +48,7 @@ features:
   --vp-button-brand-bg: #2ed3e7;
   --vp-button-brand-hover-border: #1abc9c;
 
-  --vp-c-brand-1: #2ed3e7;
+  --vp-c-brand-1: #a8b1ff;
   --vp-c-brand-2: #1abc9c;
   --vp-c-brand-3: #a8efe1;
 
