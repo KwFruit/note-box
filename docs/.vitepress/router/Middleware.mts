@@ -11,7 +11,7 @@ export const middlewaremts = [
       { text: '反向代理实例一', link: '/course/040.middleware/2.Nginx/5.Nginx 配置实例-反向代理实例一.md' },
       { text: '反向代理实例二', link: '/course/040.middleware/2.Nginx/6.Nginx 配置实例-反向代理实例二.md' },
       { text: '负载均衡', link: '/course/040.middleware/2.Nginx/7.Nginx 配置实例-负载均衡.md' },
-      { text: '反向代理实例一', link: '/course/040.middleware/2.Nginx/5.Nginx 配置实例-反向代理实例一.md' },
+      { text: '配置实例-负载均衡', link: '/course/040.middleware/2.Nginx/7.Nginx 配置实例-负载均衡.md' },
 
     ]
   },
