@@ -31,4 +31,14 @@ export const middlewaremts = [
 
       ]
     }
+    ,
+    {
+      text: 'Kafka',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        { text: '消息队列的流派', link: '/course/040.middleware/3.Kafka/1.消息队列流派.md' },
+
+      ]
+    }
   ]
