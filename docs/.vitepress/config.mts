@@ -15,7 +15,8 @@ export default defineConfig({
       {
         text: 'Java🌞',
         items: [
-          { text: '设计模式', link: '/course/1.Java/设计模式/0001.UML图.md' },
+          { text: '设计模式', link: '/course/1.Java/1.设计模式/0001.UML图.md' },
+          { text: 'JUC并发编程', link: '/course/1.Java/2.JUC/1.进程与线程.md' },
         ]
       },
       {
@@ -50,7 +51,7 @@ export default defineConfig({
       },
     ],
     sidebar: {
-      '/course/1.Java/设计模式/': javamts,
+      '/course/1.Java/': javamts,
       '/course/2.Linux/Shell/': linuxmts,
       '/course/030.CloudNative/': CloudNative,
       '/course/040.middleware/': middlewaremts,
