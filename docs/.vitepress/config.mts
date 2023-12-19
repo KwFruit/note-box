@@ -45,7 +45,10 @@ export default defineConfig({
         text: '中间件🍉',
         items: [
           { text: 'Nginx', link: '/course/040.middleware/2.Nginx/1.Nginx 简介.md' },
+          { text: 'Kafka', link: '/course/040.middleware/3.Kafka/1.消息队列流派.md' },
           { text: 'Elasticsearch', link: '/course/040.middleware/1.Elasticsearch/0001.Elasticsearch安装.md' },
+
+
         ]
       },
     ],

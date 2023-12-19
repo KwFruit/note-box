@@ -38,6 +38,12 @@ export const middlewaremts = [
       collapsed: true,
       items: [
         { text: '消息队列的流派', link: '/course/040.middleware/3.Kafka/1.消息队列流派.md' },
+        { text: 'Kafka介绍', link: '/course/040.middleware/3.Kafka/2.Kafka介绍.md' },
+        { text: 'Kafka基本使用', link: '/course/040.middleware/3.Kafka/3.Kafka基本使用.md' },
+        { text: 'Kafka中的关键细节', link: '/course/040.middleware/3.Kafka/4.Kafka中的关键细节.md' },
+        { text: '主题、分区的概念', link: '/course/040.middleware/3.Kafka/5.主题、分区的概念.md' },
+        { text: 'Kafka介绍', link: '/course/040.middleware/3.Kafka/2.Kafka介绍.md' },
+        { text: 'Kafka介绍', link: '/course/040.middleware/3.Kafka/2.Kafka介绍.md' },
 
       ]
     }
