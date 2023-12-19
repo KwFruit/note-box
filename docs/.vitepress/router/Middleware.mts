@@ -11,7 +11,7 @@ export const middlewaremts = [
       { text: '反向代理实例一', link: '/course/040.middleware/2.Nginx/5.Nginx 配置实例-反向代理实例一.md' },
       { text: '反向代理实例二', link: '/course/040.middleware/2.Nginx/6.Nginx 配置实例-反向代理实例二.md' },
       { text: '负载均衡', link: '/course/040.middleware/2.Nginx/7.Nginx 配置实例-负载均衡.md' },
-      { text: '反向代理实例一', link: '/course/040.middleware/2.Nginx/5.Nginx 配置实例-反向代理实例一.md' },
+      { text: '配置实例-负载均衡', link: '/course/040.middleware/2.Nginx/7.Nginx 配置实例-负载均衡.md' },
 
     ]
   },
@@ -28,6 +28,22 @@ export const middlewaremts = [
         { text: 'SpringBoot整合ES', link: '/course/040.middleware/1.Elasticsearch/0006.SpringBoot整合ES.md' },
         { text: 'SpringBoot整合ES测试保存', link: '/course/040.middleware/1.Elasticsearch/0007.ElasticsearchSpringBoot整合ES测试保存.md' },
         { text: 'SpringBoot整合复杂检索', link: '/course/040.middleware/1.Elasticsearch/0008.ElasticsearchSpringBoot整合复杂检索.md' },
+
+      ]
+    }
+    ,
+    {
+      text: 'Kafka',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        { text: '消息队列的流派', link: '/course/040.middleware/3.Kafka/1.消息队列流派.md' },
+        { text: 'Kafka介绍', link: '/course/040.middleware/3.Kafka/2.Kafka介绍.md' },
+        { text: 'Kafka基本使用', link: '/course/040.middleware/3.Kafka/3.Kafka基本使用.md' },
+        { text: 'Kafka中的关键细节', link: '/course/040.middleware/3.Kafka/4.Kafka中的关键细节.md' },
+        { text: '主题、分区的概念', link: '/course/040.middleware/3.Kafka/5.主题、分区的概念.md' },
+        { text: 'Kafka介绍', link: '/course/040.middleware/3.Kafka/2.Kafka介绍.md' },
+        { text: 'Kafka介绍', link: '/course/040.middleware/3.Kafka/2.Kafka介绍.md' },
 
       ]
     }
