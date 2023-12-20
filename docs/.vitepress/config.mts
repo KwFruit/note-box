@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 // 路由表
 import { javamts } from './router/Java.mjs'
 import { CloudNative } from './router/CloudNative.mjs'
-import { middlewaremts } from './router/Middleware.mjs'
+import { middlewaremts } from './router/middleware.mjs'
 import { databasemts } from './router/database.mjs'
 import {  linuxmts } from './router/linux.mjs'
 
@@ -13,13 +13,13 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: 'Java🌞',
+        text: '🍧Java',
         items: [
           { text: '设计模式', link: '/course/1.Java/设计模式/0001.UML图.md' },
         ]
       },
       {
-        text: '数据库🐣',
+        text: '🥂数据库',
         items: [
           { text: 'Redis', link: '/course/060.database/0030.Redis/0001.安装步骤.md' },
           { text: 'MongoDB', link: '/course/060.database/0040.MongoDB/0001.MongoDB 概念篇.md'  },
@@ -27,13 +27,13 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Linux🍈',
+        text: '🍸Linux',
         items: [
           { text: 'Shell', link: '/course/2.Linux/Shell/1._Shell概述.md' },
         ]
       },
       {
-        text: '云原生🍏',
+        text: '🥛云原生',
         items: [
           { text: 'Docker', link: '/course/030.CloudNative/0010.Docker/0010.Docker-基础篇.md' },
           { text: 'Kubernetes', link: '/course/030.CloudNative/0020.Kubernetes/0001.Kubernetes 实战入门.md' },
@@ -42,7 +42,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '中间件🍉',
+        text: '🍨中间件',
         items: [
           { text: 'Nginx', link: '/course/040.middleware/2.Nginx/1.Nginx 简介.md' },
           { text: 'Kafka', link: '/course/040.middleware/3.Kafka/1.消息队列流派.md' },
