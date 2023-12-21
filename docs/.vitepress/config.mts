@@ -18,7 +18,7 @@ export default defineConfig({
 
   /* prettier-ignore */
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/11.png' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/307310_files_logo_box_drop_storage_icon.png' }],
   ],
 
 
@@ -34,7 +34,7 @@ export default defineConfig({
 
 
 
-    logo: { src: '/11.png', width: 24, height: 24 },
+    logo: { src: '/307310_files_logo_box_drop_storage_icon.png', width: 24, height: 24 },
 
     nav: [
       { text: '首页', link: '/' },
