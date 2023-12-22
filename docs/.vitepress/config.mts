@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 // 路由表
 import { Juc ,Designpattern} from './router/java.mjs'
-import { cloudnative } from './router/cloudnative.mjs'
+import { cloudnative,Docker,DevopsGitlabJenkins } from './router/cloudnative.mjs'
 import { Nginx ,Kafka,Elasticsearch} from './router/middleware.mjs'
 import { databasemts } from './router/database.mjs'
 import {  linuxmts } from './router/linux.mjs'
@@ -24,14 +24,6 @@ export default defineConfig({
 
 
   themeConfig: {
-
-
-
-
-
-
-
-
 
 
     logo: { src: '/307310_files_logo_box_drop_storage_icon.png', width: 24, height: 24 },
@@ -62,9 +54,9 @@ export default defineConfig({
       {
         text: '🥛云原生',
         items: [
-          { text: 'Docker', link: '/course/3.CloudNative/0010.Docker/0010.Docker-基础篇.md' },
-          { text: 'Kubernetes', link: '/course/3.CloudNative/0020.Kubernetes/0001.Kubernetes 实战入门.md' },
-          { text: 'DevOps GitLab+Jenkins版', link: '/course/3.CloudNative/0030.DevOpsGitLab+Jenkins版/0001.搭建Gitlab服务器.md' },
+          { text: 'Docker', link: '/course/3.Cloudnative/1.Docker/0010.Docker-基础篇.md' },
+          // { text: 'Kubernetes', link: '/course/3.Cloudnative/0020.Kubernetes/0001.Kubernetes 实战入门.md' },
+          { text: 'DevOps GitLab+Jenkins版', link: '/course/3.Cloudnative/3.DevOpsGitLab+Jenkins版/1.搭建Gitlab服务器.md' },
 
         ]
       },
@@ -84,11 +76,15 @@ export default defineConfig({
       '/course/1.Java/1.设计模式': Designpattern,
       '/course/1.Java/2.Juc': Juc,
       '/course/2.Linux/Shell/': linuxmts,
-      '/course/3.CloudNative/': cloudnative,
+      // '/course/3.Cloudnative/': cloudnative,
       '/course/060.database/': databasemts,
       '/course/040.middleware/1.Elasticsearch/': Elasticsearch,
       '/course/040.middleware/2.Nginx': Nginx,
       '/course/040.middleware/3.Kafka/': Kafka,
+      '/course/3.Cloudnative/1.Docker': Docker,
+      '/course/3.Cloudnative/3.DevOpsGitLab+Jenkins版': DevopsGitlabJenkins,
+
+
 
     },
      // 在 sidebar 后添加
@@ -101,7 +97,7 @@ export default defineConfig({
        next: '下一页'
      },
      footer: {
-      // message: 'Released under the MIT License.',
+      // message: 'Power by vercel and clondflare.',
       copyright: 'Copyright © 2023-present kwfruit'
     },
     search: {
