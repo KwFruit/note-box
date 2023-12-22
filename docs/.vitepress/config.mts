@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 // 路由表
 import { Juc ,Designpattern} from './router/java.mjs'
-import { cloudnative,Docker,DevopsGitlabJenkins } from './router/cloudnative.mjs'
+import { Kubernetes,Docker,DevopsGitlabJenkins } from './router/cloudnative.mjs'
 import { Nginx ,Kafka,Elasticsearch} from './router/middleware.mjs'
 import { databasemts } from './router/database.mjs'
 import {  linuxmts } from './router/linux.mjs'
@@ -55,7 +55,7 @@ export default defineConfig({
         text: '🥛云原生',
         items: [
           { text: 'Docker', link: '/course/3.Cloudnative/1.Docker/0010.Docker-基础篇.md' },
-          // { text: 'Kubernetes', link: '/course/3.Cloudnative/0020.Kubernetes/0001.Kubernetes 实战入门.md' },
+          { text: 'Kubernetes', link: '/course/3.Cloudnative/2.Kubernetes/1.介绍.md' },
           { text: 'DevOps GitLab+Jenkins版', link: '/course/3.Cloudnative/3.DevOpsGitLab+Jenkins版/1.搭建Gitlab服务器.md' },
 
         ]
@@ -82,6 +82,7 @@ export default defineConfig({
       '/course/040.middleware/2.Nginx': Nginx,
       '/course/040.middleware/3.Kafka/': Kafka,
       '/course/3.Cloudnative/1.Docker': Docker,
+      '/course/3.Cloudnative/2.Kubernetes': Kubernetes,
       '/course/3.Cloudnative/3.DevOpsGitLab+Jenkins版': DevopsGitlabJenkins,
 
 
