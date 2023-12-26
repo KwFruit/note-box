@@ -129,7 +129,7 @@ export default defineConfig({
       options: {
         appId: '2A9HHOINBG',
         apiKey: '99dc5fdc2171c5c37cc5259d83ee72b8',
-        indexName: 'Note Box',
+        indexName: 'note box',
         locales: {
           root: {
             placeholder: '搜索文档',
