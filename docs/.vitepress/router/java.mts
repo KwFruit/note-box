@@ -1,11 +1,17 @@
-export const Juc = [
+ export const Juc = [
     {
       text: 'JUC并发编程',
-      collapsible: true,
-      collapsed: true,
+      base: '/course/1.Java/2.JUC/',
+
       items: [
-        { text: '进程与线程', link: '/course/1.Java/2.JUC/1.进程与线程.md' },
-    
+        { text: '进程与线程', link: '1.进程与线程.md' },
+        { text: '创建线程', link: '2.创建线程.md' },
+        { text: '线程方法', link: '3.线程方法.md' },
+
+
+
+        
+
       ]
     }
   ]
