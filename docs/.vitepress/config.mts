@@ -100,9 +100,87 @@ export default defineConfig({
       // message: 'Power by vercel and clondflare.',
       copyright: 'Copyright © 2023-present kwfruit'
     },
+    // search: {
+    //   provider: 'local',
+    //   options: {
+    //     locales: {
+    //       root: {
+    //         translations: {
+    //           button: {
+    //             buttonText: '搜索文档',
+    //             buttonAriaLabel: '搜索文档'
+    //           },
+    //           modal: {
+    //             noResultsText: '无法找到相关结果',
+    //             resetButtonTitle: '清除查询条件',
+    //             footer: {
+    //               selectText: '选择',
+    //               navigateText: '切换'
+    //             }
+    //           }
+    //         }
+    //       }
+    //     }
+    //   }
+    // },
+
     search: {
-      provider: 'local'
+      provider: 'algolia',
+      options: {
+        appId: '2A9HHOINBG',
+        apiKey: '99dc5fdc2171c5c37cc5259d83ee72b8',
+        indexName: 'Note Box',
+        locales: {
+          root: {
+            placeholder: '搜索文档',
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+                buttonAriaLabel: '搜索文档'
+              },
+              modal: {
+                searchBox: {
+                  resetButtonTitle: '清除查询条件',
+                  resetButtonAriaLabel: '清除查询条件',
+                  cancelButtonText: '取消',
+                  cancelButtonAriaLabel: '取消'
+                },
+                startScreen: {
+                  recentSearchesTitle: '搜索历史',
+                  noRecentSearchesText: '没有搜索历史',
+                  saveRecentSearchButtonTitle: '保存至搜索历史',
+                  removeRecentSearchButtonTitle: '从搜索历史中移除',
+                  favoriteSearchesTitle: '收藏',
+                  removeFavoriteSearchButtonTitle: '从收藏中移除'
+                },
+                errorScreen: {
+                  titleText: '无法获取结果',
+                  helpText: '你可能需要检查你的网络连接'
+                },
+                footer: {
+                  selectText: '选择',
+                  navigateText: '切换',
+                  closeText: '关闭',
+                  searchByText: '搜索提供者'
+                },
+                noResultsScreen: {
+                  noResultsText: '无法找到相关结果',
+                  suggestedQueryText: '你可以尝试查询',
+                  reportMissingResultsText: '你认为该查询应该有结果？',
+                  reportMissingResultsLinkText: '点击反馈'
+                }
+              }
+            }
+          }
+        }
+      }
     },
+
+      // 编辑链接配置
+  editLink: {
+    pattern: 'https://github.com/Charles7c/charles7c.github.io/edit/main/docs/:path',
+    text: '不妥之处，敬请雅正'
+  },
       // 导航栏右侧社交链接配置
   socialLinks: [
     {
