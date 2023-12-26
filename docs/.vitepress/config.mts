@@ -176,10 +176,10 @@ export default defineConfig({
       }
     },
 
-      // 编辑链接配置
+      // 编辑链接配置 
   editLink: {
-    pattern: 'https://github.com/Charles7c/charles7c.github.io/edit/main/docs/:path',
-    text: '不妥之处，敬请雅正'
+    pattern: 'https://github.com/KwFruit/knowledge-base-website/edit/master/docs/:path',
+    text: '在 Github 上编辑此页'
   },
       // 导航栏右侧社交链接配置
   socialLinks: [
