@@ -1,3 +1,9 @@
+name: algolia
+on:
+  push:
+    branches:
+      - master
+jobs:
   algolia:
     needs: deploy
     runs-on: ubuntu-latest
