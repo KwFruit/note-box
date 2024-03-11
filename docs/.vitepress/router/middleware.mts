@@ -1,7 +1,7 @@
 export const Nginx = [
   {
     text: 'Nginx',
-    base: '/course/040.middleware/2.Nginx/',
+    base: '/course/4.middleware/2.Nginx/',
     items: [
       { text: '简介', link: '1.Nginx 简介.md' },
       { text: '安装', link: '2.Nginx 安装.md' },
@@ -20,7 +20,7 @@ export const Nginx = [
 export const Elasticsearch = [
     {
       text: 'Elasticsearch',
-      base: '/course/040.middleware/1.Elasticsearch/',
+      base: '/course/4.middleware/1.Elasticsearch/',
       items: [
         { text: '安装', link: '0001.Elasticsearch安装.md' },
         { text: '初步检索', link: '0002.Elasticsearch初步检索.md' },
@@ -40,7 +40,7 @@ export const Elasticsearch = [
       text: 'Kafka',
       // collapsible: false,
       // collapsed: false,
-      base: '/course/040.middleware/3.Kafka/',
+      base: '/course/4.middleware/3.Kafka/',
       items: [
         { text: '消息队列的流派', link: '1.消息队列流派.md' },
         { text: 'Kafka介绍', link: '2.Kafka介绍.md' },
