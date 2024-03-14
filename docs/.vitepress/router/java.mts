@@ -15,7 +15,7 @@
         { text: 'I/O', link: '7.IO.md' },
         { text: '反射', link: '8.反射.md' },
         { text: '注解', link: '9.注解.md' },
-        { text: 'XML', link: '10.XML.md' },
+        // { text: 'XML', link: '10.XML.md' },
 
 
       
