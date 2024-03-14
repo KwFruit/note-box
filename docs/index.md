@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text:  快速开始
-      link: /course/1.Java/1.设计模式/1.UML图.md
+      link: /course/1.Java/1.Java SE/1.基础.md
   image:
     #src: /5854023_drinks_glass_ice_juice_lemon_icon.png
     src: /4.svg
