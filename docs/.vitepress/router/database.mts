@@ -4,7 +4,7 @@ export const Redis = [
       base: '/course/6.database/3.Redis/',
       items: [
         { text: '安装步骤', link: '1.安装步骤.md' },
-        { text: '基本数据结构', link: '0002.基本数据结构.md' },
+        { text: '基本数据结构', link: '2.基本数据结构.md' },
         { text: '发布和订阅', link: '0003.Redis的发布和订阅.md' },
         { text: '新数据类型', link: '0004.Redis新数据类型.md' },
         { text: 'Jedis', link: '0005.Redis_Jedis_测试.md' },

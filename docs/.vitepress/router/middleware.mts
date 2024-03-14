@@ -38,8 +38,6 @@ export const Elasticsearch = [
   export const Kafka = [
     {
       text: 'Kafka',
-      // collapsible: false,
-      // collapsed: false,
       base: '/course/4.middleware/3.Kafka/',
       items: [
         { text: '消息队列的流派', link: '1.消息队列流派.md' },
@@ -56,5 +54,26 @@ export const Elasticsearch = [
         { text: 'Kafka-eagle监控平台', link: '12.Kafka-eagle监控平台.md'},
 
       ]
+    }
+  ]
+
+
+  export const RabbitMq = [
+    {
+      text: 'RabbitMq',
+      base: '/course/4.middleware/4.RabbitMq/',
+      items: [
+        { text: '消息队列的流派', link: '1.消息队列的流派.md' },
+        { text: '安装RabbitMQ', link: '2.安装RabbitMQ.md' },
+        { text: 'Hello world', link: '3.Hello world.md' },
+        { text: 'Work Queues', link: '4.Work Queues.md' },
+        { text: '发布确认', link: '5.发布确认.md' },
+        { text: '交换机', link: '6.交换机.md' },
+        { text: '死信队列', link: '7.死信队列.md' },
+        { text: '延迟队列', link: '8.延迟队列.md' },   
+        { text: '发布确认高级', link: '9.发布确认高级.md' },   
+        { text: '幂等性', link: '10.幂等性.md' },   
+     ]
+
     }
   ]

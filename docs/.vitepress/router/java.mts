@@ -1,3 +1,29 @@
+ 
+ 
+  export const SE = [
+    {
+      text: 'Java SE',
+      base: '/course/1.Java/1.Java SE/',
+
+      items: [
+        { text: '基础', link: '1.基础.md' },
+        { text: '对象', link: '2.对象.md' },
+        { text: 'API', link: '3.API.md' },
+        { text: '集合', link: '4.集合.md' },
+        { text: '异常', link: '5.异常.md' },
+        { text: 'λ', link: '6.λ.md' },
+        { text: 'I/O', link: '7.IO.md' },
+        { text: '反射', link: '8.反射.md' },
+        { text: '注解', link: '9.注解.md' },
+        { text: 'XML', link: '10.XML.md' },
+
+
+      
+      ]
+    }
+  ]
+ 
+ 
  export const Juc = [
     {
       text: 'JUC并发编程',
@@ -10,8 +36,6 @@
 
 
 
-        
-
       ]
     }
   ]
@@ -20,7 +44,7 @@
   export const Designpattern = [
     {
       text: '设计模式',
-      base: '/course/1.Java/1.设计模式/',
+      base: '/course/1.Java/3.设计模式/',
       items: [
         { text: 'UML图', link: '1.UML图.md' },
         { text: '设计模式概述', link: '2.设计模式概述.md' },

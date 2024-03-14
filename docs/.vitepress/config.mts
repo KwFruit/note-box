@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 // 路由表
-import { Juc ,Designpattern} from './router/java.mjs'
+import {SE, Juc ,Designpattern} from './router/java.mjs'
 import { Kubernetes,Docker,DevopsGitlabJenkins } from './router/cloudnative.mjs'
-import { Nginx ,Kafka,Elasticsearch} from './router/middleware.mjs'
+import { Nginx ,Kafka,Elasticsearch,RabbitMq} from './router/middleware.mjs'
 import { Redis,MongoDB } from './router/database.mjs'
 import {  linuxmts } from './router/linux.mjs'
 // import { mq } from './router/mq.mjs'
@@ -33,10 +33,9 @@ export default defineConfig({
       {
         text: '🍧Java',
         items: [
-          { text: '设计模式', link: '/course/1.Java/1.设计模式/1.UML图.md' },
+          { text: 'Java SE', link: '/course/1.Java/1.Java SE/1.基础.md' },
+          { text: '设计模式', link: '/course/1.Java/3.设计模式/1.UML图.md' },
           { text: 'JUC并发编程', link: '/course/1.Java/2.JUC/1.进程与线程.md' },
-          { text: 'Spring事务', link: '/course/1.Java/2.JUC/1.进程与线程.md' },
-          { text: '分布式锁', link: '/course/1.Java/2.JUC/1.进程与线程.md' },
         ]
       },
       {
@@ -63,11 +62,17 @@ export default defineConfig({
         ]
       },
       {
+        text: '🍹框架',
+        items: [
+          { text: 'Shell', link: '/course/2.Linux/Shell/1._Shell概述.md' },
+        ]
+      },
+      {
         text: '🍨中间件',
         items: [
           { text: 'Nginx', link: '/course/4.middleware/2.Nginx/1.Nginx 简介.md' },
           { text: 'Kafka', link: '/course/4.middleware/3.Kafka/1.消息队列流派.md' },
-          { text: 'Elasticsearch', link: '/course/4.middleware/1.Elasticsearch/0001.Elasticsearch安装.md' },
+          { text: 'RabbitMq', link: '/course/4.middleware/4.RabbitMq/1.消息队列的流派.md' },
           { text: 'Elasticsearch', link: '/course/4.middleware/1.Elasticsearch/0001.Elasticsearch安装.md' },
 
 
@@ -75,8 +80,14 @@ export default defineConfig({
       },
     ],
     sidebar: {
-      '/course/1.Java/1.设计模式': Designpattern,
+      
+      
+      '/course/1.Java/1.Java SE': SE,
+      '/course/1.Java/3.设计模式': Designpattern,
       '/course/1.Java/2.JUC': Juc,
+
+
+
       '/course/2.Linux/Shell/': linuxmts,
       // '/course/3.Cloudnative/': cloudnative,
       '/course/6.database/3.Redis/': Redis,
@@ -89,6 +100,7 @@ export default defineConfig({
       '/course/4.middleware/1.Elasticsearch/': Elasticsearch,
       '/course/4.middleware/2.Nginx': Nginx,
       '/course/4.middleware/3.Kafka/': Kafka,
+      '/course/4.middleware/4.RabbitMq/': RabbitMq,
 
 
 
@@ -104,7 +116,7 @@ export default defineConfig({
      },
      footer: {
       message: 'Power by Vercel and Cloudflare.',
-      copyright: 'Copyright © 2023-present kwfruit'
+      copyright: 'Copyright © 2023-present kwfruit.'
     },
     // search: {
     //   provider: 'local',
