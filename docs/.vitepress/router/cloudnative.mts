@@ -1,7 +1,7 @@
   export const Kubernetes = [
     {
       text: 'Kubernetes',
-      base: '/course/3.Cloudnative/2.Kubernetes/',
+      base: '/note/3.Cloudnative/2.Kubernetes/',
       items: [
         { text: '介绍', link: '1.介绍.md' },
         { text: '集群环境搭建', link: '2.集群环境搭建.md' },      
@@ -22,7 +22,7 @@
   export const Docker = [
     {
       text: 'Docker',
-      base: '/course/3.Cloudnative/1.Docker/',
+      base: '/note/3.Cloudnative/1.Docker/',
       items: [
         { text: '概述', link: '1.概述.md' },
         { text: '安装', link: '2.安装.md' },
@@ -48,8 +48,8 @@
 
   export const DevopsGitlabJenkins = [
     {
-      text: 'DevOps GitLab+Jenkins版',
-      base: '/course/3.Cloudnative/3.DevOpsGitLab+Jenkins版/',
+      text: 'DevOps GitLab+Jenkins',
+      base: '/note/3.Cloudnative/3.DevOpsGitLab+Jenkins/',
       items: [
         { text: '搭建Gitlab服务器', link: '1.搭建Gitlab服务器.md' },
         { text: '安装GitLab-Runner', link: '2.安装GitLab-Runner.md' },

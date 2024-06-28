@@ -26,78 +26,88 @@ export default defineConfig({
     logo: { src: '/307310_files_logo_box_drop_storage_icon.png', width: 24, height: 24 },
 
     nav: [
+
       { text: '首页', link: '/' },
       {
-        text: '🍧Java',
+        text: '✨Java',
         items: [
-          { text: 'Java SE', link: '/course/1.Java/1.Java SE/1.基础.md' },
-          { text: '设计模式', link: '/course/1.Java/3.设计模式/1.UML图.md' },
-          { text: 'JUC并发编程', link: '/course/1.Java/2.JUC/1.进程与线程.md' },
-        ]
-      },
-      {
-        text: '🥂数据库',
-        items: [
-          { text: 'Redis', link: '/course/6.database/3.Redis/1.安装步骤.md' },
-          { text: 'MongoDB', link: '/course/6.database/4.MongoDB/0001.MongoDB 概念篇.md'  },
+          { text: 'Java SE', link: '/note/1.Java/1.Java SE/1.基础.md' },
+          { text: 'JUC 并发编程', link: '/note/1.Java/2.JUC/1.进程与线程.md' },
+          { text: 'JVM 虚拟机', link: '/note/1.Java/2.JUC/1.进程与线程.md' },
+          { text: 'Java 设计模式', link: '/note/1.Java/3.设计模式/1.UML图.md' },
 
         ]
       },
       {
-        text: '🍸Linux',
+        text: '💫数据库',
         items: [
-          { text: 'Shell', link: '/course/2.Linux/Shell/1._Shell概述.md' },
+          { text: 'Redis', link: '/note/6.database/3.Redis/1.安装步骤.md' },
+          { text: 'MongoDB', link: '/note/6.database/4.MongoDB/0001.MongoDB 概念篇.md'  },
+
         ]
       },
       {
-        text: '🥛云原生',
+        text: '🌈Linux',
         items: [
-          { text: 'Docker', link: '/course/3.Cloudnative/1.Docker/0010.Docker-基础篇.md' },
-          { text: 'Kubernetes', link: '/course/3.Cloudnative/2.Kubernetes/1.介绍.md' },
-          { text: 'DevOps GitLab+Jenkins版', link: '/course/3.Cloudnative/3.DevOpsGitLab+Jenkins版/1.搭建Gitlab服务器.md' },
+          { text: 'Shell', link: '/note/2.Linux/Shell/1._Shell概述.md' },
+        ]
+      },
+      {
+        text: '❄️云原生',
+        items: [
+          { text: 'Docker', link: '/note/3.Cloudnative/1.Docker/0010.Docker-基础篇.md' },
+          { text: 'Kubernetes', link: '/note/3.Cloudnative/2.Kubernetes/1.介绍.md' },
+          { text: 'DevOps GitLab+Jenkins', link: '/note/3.Cloudnative/3.DevOpsGitLab+Jenkins版/1.搭建Gitlab服务器.md' },
 
         ]
       },
       {
         text: '🍹框架',
         items: [
-          { text: 'Shell', link: '/course/2.Linux/Shell/1._Shell概述.md' },
+          { text: 'Shell', link: '/note/2.Linux/Shell/1._Shell概述.md' },
         ]
       },
       {
-        text: '🍨中间件',
+        text: '🍸网络编程',
         items: [
-          { text: 'Nginx', link: '/course/4.middleware/2.Nginx/1.Nginx 简介.md' },
-          { text: 'Kafka', link: '/course/4.middleware/3.Kafka/1.消息队列流派.md' },
-          { text: 'RabbitMq', link: '/course/4.middleware/4.RabbitMq/1.消息队列的流派.md' },
-          { text: 'Elasticsearch', link: '/course/4.middleware/1.Elasticsearch/0001.Elasticsearch安装.md' },
+          { text: 'Socket', link: '/note/2.Linux/Shell/1._Shell概述.md' },
+          { text: 'Nio', link: '/note/2.Linux/Shell/1._Shell概述.md' },
+          { text: 'Netty', link: '/note/2.Linux/Shell/1._Shell概述.md' },
 
-
+        ]
+      },
+      {
+        text: '⛄中间件',
+        items: [
+          { text: 'Nginx', link: '/note/4.middleware/2.Nginx/1.Nginx 简介.md' },
+          { text: 'Kafka', link: '/note/4.middleware/3.Kafka/1.消息队列流派.md' },
+          { text: 'RabbitMq', link: '/note/4.middleware/4.RabbitMq/1.消息队列的流派.md' },
+          { text: 'Elasticsearch', link: '/note/4.middleware/1.Elasticsearch/0001.Elasticsearch安装.md' },
         ]
       },
     ],
     sidebar: {
       
       
-      '/course/1.Java/1.Java SE': SE,
-      '/course/1.Java/3.设计模式': Designpattern,
-      '/course/1.Java/2.JUC': Juc,
+      '/note/1.Java/1.Java SE': SE,
+      '/note/1.Java/3.设计模式': Designpattern,
+      '/note/1.Java/2.JUC': Juc,
 
 
 
-      '/course/2.Linux/Shell/': linuxmts,
-      // '/course/3.Cloudnative/': cloudnative,
-      '/course/6.database/3.Redis/': Redis,
-      '/course/6.database/4.MongoDB/': MongoDB,
+      '/note/2.Linux/Shell/': linuxmts,
+      // '/note/3.Cloudnative/': cloudnative,
+      '/note/6.database/3.Redis/': Redis,
+      '/note/6.database/4.MongoDB/': MongoDB,
 
-      '/course/3.Cloudnative/1.Docker': Docker,
-      '/course/3.Cloudnative/2.Kubernetes': Kubernetes,
-      '/course/3.Cloudnative/3.DevOpsGitLab+Jenkins版': DevopsGitlabJenkins,
+      '/note/3.Cloudnative/1.Docker': Docker,
+      '/note/3.Cloudnative/2.Kubernetes': Kubernetes,
+      '/note/3.Cloudnative/3.DevOpsGitLab+Jenkins': DevopsGitlabJenkins,
 
-      '/course/4.middleware/1.Elasticsearch/': Elasticsearch,
-      '/course/4.middleware/2.Nginx': Nginx,
-      '/course/4.middleware/3.Kafka/': Kafka,
-      '/course/4.middleware/4.RabbitMq/': RabbitMq,
+      '/note/4.middleware/1.Elasticsearch/': Elasticsearch,
+      '/note/4.middleware/2.Nginx': Nginx,
+      '/note/4.middleware/3.Kafka/': Kafka,
+      '/note/4.middleware/4.RabbitMq/': RabbitMq,
 
 
 
@@ -112,7 +122,7 @@ export default defineConfig({
        next: '下一页'
      },
      footer: {
-      message: 'Power by Vercel and Cloudflare.',
+      // message: 'Power by Vercel and Cloudflare.',
       copyright: 'Copyright © 2023-present kwfruit.'
     },
     // search: {

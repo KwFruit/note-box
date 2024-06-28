@@ -3,7 +3,7 @@
   export const SE = [
     {
       text: 'Java SE',
-      base: '/course/1.Java/1.Java SE/',
+      base: '/note/1.Java/1.Java SE/',
 
       items: [
         { text: '基础', link: '1.基础.md' },
@@ -27,7 +27,7 @@
  export const Juc = [
     {
       text: 'JUC并发编程',
-      base: '/course/1.Java/2.JUC/',
+      base: '/note/1.Java/2.JUC/',
 
       items: [
         { text: '进程与线程', link: '1.进程与线程.md' },
@@ -44,7 +44,7 @@
   export const Designpattern = [
     {
       text: '设计模式',
-      base: '/course/1.Java/3.设计模式/',
+      base: '/note/1.Java/3.设计模式/',
       items: [
         { text: 'UML图', link: '1.UML图.md' },
         { text: '设计模式概述', link: '2.设计模式概述.md' },

@@ -1,7 +1,7 @@
 export const Redis = [
     {
       text: 'Redis',
-      base: '/course/6.database/3.Redis/',
+      base: '/note/6.database/3.Redis/',
       items: [
         { text: '安装步骤', link: '1.安装步骤.md' },
         { text: '基本数据结构', link: '2.基本数据结构.md' },
@@ -54,7 +54,7 @@ export const Redis = [
   export const MongoDB = [
     {
       text: 'MongoDB',
-      base: '/course/6.database/4.MongoDB/',
+      base: '/note/6.database/4.MongoDB/',
       items: [
         { text: '概念篇', link: '0001.MongoDB 概念篇.md' },
         { text: '简单CRUD篇', link: '0002.MongoDB 简单CRUD篇.md' },
