@@ -1,5 +1,5 @@
 {
-    "index_name": "note box",
+    "index_name": "NoteCove",
     "start_urls": ["https://docs.kwfruit.cn/"],
     "rateLimit": 8,
     "maxDepth": 10,
