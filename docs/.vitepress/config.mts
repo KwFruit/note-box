@@ -152,9 +152,9 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: {
-        appId: '2A9HHOINBG',
-        apiKey: '99dc5fdc2171c5c37cc5259d83ee72b8',
-        indexName: 'note box',
+        appId: 'NXNJRHD0T5',
+        apiKey: 'f22e5ddab5b49bf18a2fbf8b92dc32b0',
+        indexName: 'NoteCove',
         locales: {
           root: {
             placeholder: '搜索文档',
