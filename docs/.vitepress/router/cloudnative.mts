@@ -49,7 +49,7 @@
   export const DevopsGitlabJenkins = [
     {
       text: 'DevOps GitLab+Jenkins',
-      base: '/note/3.Cloudnative/3.DevOpsGitLab+Jenkins/',
+      base: '/note/3.Cloudnative/3.DevOpsGitLab+Jenkins版/',
       items: [
         { text: '搭建Gitlab服务器', link: '1.搭建Gitlab服务器.md' },
         { text: '安装GitLab-Runner', link: '2.安装GitLab-Runner.md' },

@@ -1,21 +1,21 @@
 ---
 layout: home
 
-title: Note Box
+title: Note Cove
 titleTemplate: 后端技术知识库
 
 hero:
-  name: Note Box
+  name: Note Cove
   text: focused recorde and shared
-  tagline: 后端技术知识库，记录碎片化、结构化、体系化的技术知识内容。
+  tagline: 分享技术干货，解锁创新奥秘的点滴知识库。
   actions:
     - theme: brand
       text:  快速开始
-      link: /note/1.Java/1.Java SE/1.基础.md
+      link: /note/1.Java/2.JUC/1.基本概念.md
   image:
     #src: /5854023_drinks_glass_ice_juice_lemon_icon.png
     src: /4.svg
-    alt: Note Box
+    alt: Note Cove
 
 features:
   - icon: <svg t="1700488832235" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9771" width="32" height="32"><path d="M266.664 773.808l-90.144 7.576 12.424-88.84z" fill="#208DE8" p-id="9772"></path><path d="M869.34 263.576l-43.676 43.672a30.868 30.868 0 0 1-43.652 0 30.86 30.86 0 0 1 0 43.652l-392.992 392.976a30.636 30.636 0 0 1-5.412 4.256 38.04 38.04 0 0 1-29.864 26.736l-177.4 37.932a30.864 30.864 0 0 1-30.868-30.868l37.94-177.392a38.04 38.04 0 0 1 26.736-29.864 30.872 30.872 0 0 1 4.256-5.412l392.992-392.968a30.868 30.868 0 0 1 43.652 0 30.868 30.868 0 0 1 0-43.652l43.676-43.676a30.872 30.872 0 0 1 43.656 0l130.956 130.952a30.86 30.86 0 0 1 0 43.656zM187.924 772.052l152.144-34.852-118.028-117.136zM626.664 212.336l-377.248 377.232 119.304 119.304 377.252-377.236z" fill="#208DE8" p-id="9773"></path><path d="M96 882.24h824.16a20 20 0 1 1 0 40H96a20 20 0 0 1 0-40z m435.88-100.28h392.08a20 20 0 0 1 0 40h-392.08a20 20 0 0 1 0-40z" fill="#208DE8" p-id="9774"></path></svg>
