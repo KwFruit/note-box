@@ -15,6 +15,13 @@ export default defineConfig({
 
   /* prettier-ignore */
   head: [
+    // Google adsense
+    ['script', {
+      async: 'async',
+      // 记得替换成你的真正的 src
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7999751052189690',
+      crossorigin: 'anonymous',
+    }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/307310_files_logo_box_drop_storage_icon.png' }],
     [
       'link',
