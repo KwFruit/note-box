@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 import {SE, Juc ,Designpattern} from './router/java.mjs'
 import { Kubernetes,Docker,DevopsGitlabJenkins } from './router/cloudnative.mjs'
 import { Nginx ,Kafka,Elasticsearch,RabbitMq} from './router/middleware.mjs'
-import { Redis,MongoDB } from './router/database.mjs'
+import { Redis,MongoDB ,Mysql} from './router/database.mjs'
 import {  linuxmts } from './router/linux.mjs'
 // import { mq } from './router/mq.mjs'
  
@@ -11,20 +11,32 @@ export default defineConfig({
   title: "Note Cove",
   description: "Note Cove",
 
-
+  lastUpdated: true,
 
   /* prettier-ignore */
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/307310_files_logo_box_drop_storage_icon.png' }],
+    [
+      'link',
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' }
+    ],
+    [
+      'link',
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }
+    ],
+    [
+      'link',
+      { href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap', rel: 'stylesheet' }
+    ]
   ],
 
 
 
   themeConfig: {
-
-
     logo: { src: '/307310_files_logo_box_drop_storage_icon.png', width: 24, height: 24 },
-
+    outline:{
+      level: "deep"
+    },
     nav: [
 
       { text: '首页', link: '/' },
@@ -40,6 +52,7 @@ export default defineConfig({
       {
         text: '数据库',
         items: [
+          { text: 'MySQL', link: '/note/6.database/2.Mysql/1.存储过程-介绍.md' },
           { text: 'Redis', link: '/note/6.database/3.Redis/1.安装步骤.md' },
           { text: 'MongoDB', link: '/note/6.database/4.MongoDB/0001.MongoDB 概念篇.md'  },
         ]
@@ -98,6 +111,7 @@ export default defineConfig({
 
       '/note/2.Linux/Shell/': linuxmts,
       // '/note/3.Cloudnative/': cloudnative,
+      '/note/6.database/2.Mysql/': Mysql,
       '/note/6.database/3.Redis/': Redis,
       '/note/6.database/4.MongoDB/': MongoDB,
 

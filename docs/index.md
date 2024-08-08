@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text:  快速开始
-      link: /note/1.Java/2.JUC/1.基本概念.md
+      link: /note/6.database/2.Mysql/1.存储过程-介绍.md
   image:
     #src: /5854023_drinks_glass_ice_juice_lemon_icon.png
     src: /4.svg

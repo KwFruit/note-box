@@ -1,3 +1,21 @@
+
+
+
+export const Mysql = [
+  {
+    text: 'MySQL',
+    base: '/note/6.database/2.Mysql/',
+    items: [
+      { text: '存储过程', items:[
+          { text: '介绍', link: '1.存储过程-介绍.md' },
+          { text: '变量', link: '2.存储过程-变量.md' },
+          { text: '流程控制', link: '3.存储过程-流程控制.md' },
+        ] },
+    ]
+  },
+]
+
+
 export const Redis = [
     {
       text: 'Redis',
