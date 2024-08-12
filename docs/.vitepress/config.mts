@@ -52,7 +52,7 @@ export default defineConfig({
       {
         text: '数据库',
         items: [
-          { text: 'MySQL', link: '/note/6.database/2.Mysql/1.存储过程-介绍.md' },
+          { text: 'MySQL', link: '/note/6.database/2.Mysql/421.存储过程-介绍.md' },
           { text: 'Redis', link: '/note/6.database/3.Redis/1.安装步骤.md' },
           { text: 'MongoDB', link: '/note/6.database/4.MongoDB/0001.MongoDB 概念篇.md'  },
         ]

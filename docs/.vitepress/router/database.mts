@@ -6,11 +6,18 @@ export const Mysql = [
     text: 'MySQL',
     base: '/note/6.database/2.Mysql/',
     items: [
+      { text: 'SQL优化', link: '311.SQL优化.md' },
+      { text: '视图', link: '411.视图.md' },
       { text: '存储过程', items:[
-          { text: '介绍', link: '1.存储过程-介绍.md' },
-          { text: '变量', link: '2.存储过程-变量.md' },
-          { text: '流程控制', link: '3.存储过程-流程控制.md' },
+          { text: '介绍', link: '421.存储过程-介绍.md' },
+          { text: '变量', link: '422.存储过程-变量.md' },
+          { text: '流程控制', link: '423.存储过程-流程控制.md' },
+          { text: '游标', link: '424.存储过程-游标.md' },
+          { text: '条件处理程序', link: '425.存储过程-条件处理程序.md' },
         ] },
+      { text: '存储函数', link: '430.存储函数.md' },
+      { text: '触发器', link: '441.触发器.md' },
+
     ]
   },
 ]
