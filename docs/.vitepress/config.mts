@@ -1,13 +1,15 @@
-import { defineConfig } from 'vitepress'
+// import { defineConfig } from 'vitepress'
+import { withMermaid } from "vitepress-plugin-mermaid";
 // 路由表
 import {SE, Juc ,Designpattern} from './router/java.mjs'
 import { Kubernetes,Docker,DevopsGitlabJenkins } from './router/cloudnative.mjs'
 import { Nginx ,Kafka,Elasticsearch,RabbitMq} from './router/middleware.mjs'
 import { Redis,MongoDB ,Mysql} from './router/database.mjs'
 import {  linuxmts } from './router/linux.mjs'
+
 // import { mq } from './router/mq.mjs'
  
-export default defineConfig({
+export default withMermaid({
   title: "Note Cove",
   description: "Note Cove",
 
@@ -37,6 +39,14 @@ export default defineConfig({
     ]
   ],
 
+  mermaid: {
+
+    // 配置参考： https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults
+  },
+  // 可选地使用MermaidPluginConfig为插件本身设置额外的配置
+  mermaidPlugin: {
+    class: "mermaid my-class" // 为父容器设置额外的CSS类
+  },
 
 
   themeConfig: {

@@ -6,6 +6,14 @@ export const Mysql = [
     text: 'MySQL',
     base: '/note/6.database/2.Mysql/',
     items: [
+      { text: '索引', items:[
+          { text: '概述', link: '211.索引-概述.md' },
+          { text: '结构', link: '212.索引-结构.md' },
+          { text: '分类', link: '213.索引-分类.md' },
+          { text: '语法', link: '214.索引-语法.md' },
+          { text: 'SQL性能分析', link: '215.索引-SQL性能分析.md' },
+
+        ] },
       { text: 'SQL优化', link: '311.SQL优化.md' },
       { text: '视图', link: '411.视图.md' },
       { text: '存储过程', items:[
