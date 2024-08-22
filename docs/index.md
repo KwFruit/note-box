@@ -28,4 +28,6 @@ features:
     title: 快速查找
     details: 快速查找能够在海量信息中快速定位目标，节省大量搜索时间，使工作、学习和生活更加高效。
 ---
+<confetti />
+
 <HomeUnderline />

@@ -7,6 +7,7 @@ import './style/blur.css';
 /* .vitepress/theme/style/index.css */
 import './style/blockquote.css';
 import HomeUnderline from "./components/HomeUnderline.vue"
+import confetti from "./components/confetti.vue";
 
 export default {
   extends: DefaultTheme,
@@ -14,6 +15,8 @@ export default {
   Layout: MyLayout,
   enhanceApp({app}) {
     // 注册全局组件
-    app.component('HomeUnderline' , HomeUnderline)
+    app.component('HomeUnderline' , HomeUnderline),
+        app.component('confetti' , confetti)
+
   }
 }
