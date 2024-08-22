@@ -6,8 +6,8 @@ titleTemplate: 后端技术知识库
 
 hero:
   name: Note Cove
-  text: focused recorde and shared
-  tagline: 分享技术干货，解锁创新奥秘的点滴知识库。
+  text: Fast Learn Fast Find Fast Copy
+  tagline: 学得快、搜得快、抄得快，从此没有难倒你的需求！
   actions:
     - theme: brand
       text:  快速开始
@@ -28,3 +28,4 @@ features:
     title: 快速查找
     details: 快速查找能够在海量信息中快速定位目标，节省大量搜索时间，使工作、学习和生活更加高效。
 ---
+<HomeUnderline />
