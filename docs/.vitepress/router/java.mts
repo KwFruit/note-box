@@ -45,7 +45,7 @@
       base: '/note/1.Java/3.设计模式/',
       items: [
         { text: 'UML图', link: '1.UML图.md' },
-        { text: '设计模式概述', link: '2.设计模式概述.md' },
+        { text: '概述', link: '2.设计模式概述.md' },
         { text: '软件设计原则',  
         items:[
           { text: '开闭原则', link: '3.软件设计原则-开闭原则.md' },

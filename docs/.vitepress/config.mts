@@ -12,7 +12,6 @@ import {  linuxmts } from './router/linux.mjs'
 export default withMermaid({
   title: "Note Cove",
   description: "Note Cove",
-
   lastUpdated: true,
 
   /* prettier-ignore */
@@ -40,6 +39,18 @@ export default withMermaid({
   ],
 
   mermaid: {
+    theme: 'base',
+    themeVariables: {
+      darkMode: 'true',
+      background: '#f4f4f4',
+      primaryColor: '#87CEEB',
+      primaryTextColor: '#FAFAFA',
+      primaryBorderColor : '#208DE8',
+      lineColor: '#3ea7e5',
+      secondaryColor: '#006100',
+      secondaryTextColor: '#fff',
+      tertiaryColor: '#fff'
+    }
 
     // 配置参考： https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults
   },
@@ -54,14 +65,21 @@ export default withMermaid({
     outline:{
       level: "deep"
     },
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'short', // 可选值full、long、medium、short
+        timeStyle: 'medium' // 可选值full、long、medium、short
+      },
+    },
     nav: [
 
       { text: '首页', link: '/' },
       {
         text: 'Java',
         items: [
-          { text: 'JVM 虚拟机', link: '/note/1.Java/2.JUC/1.基本概念.md' },
-          { text: 'JUC 并发编程', link: '/note/1.Java/2.JUC/1.基本概念.md' },
+          // { text: 'JVM 虚拟机', link: '/note/1.Java/2.JUC/1.基本概念.md' },
+          // { text: 'JUC 并发编程', link: '/note/1.Java/2.JUC/1.基本概念.md' },
           { text: 'Java 设计模式', link: '/note/1.Java/3.设计模式/1.UML图.md' },
         ]
       },
@@ -85,7 +103,7 @@ export default withMermaid({
       {
         text: '云原生',
         items: [
-          { text: 'Docker', link: '/note/3.Cloudnative/1.Docker/0010.Docker-基础篇.md' },
+          { text: 'Docker', link: '/note/3.Cloudnative/1.Docker/1.基础篇.md' },
           { text: 'Kubernetes', link: '/note/3.Cloudnative/2.Kubernetes/1.介绍.md' },
           { text: 'DevOps GitLab+Jenkins', link: '/note/3.Cloudnative/3.DevOpsGitLab+Jenkins版/1.搭建Gitlab服务器.md' },
 
@@ -117,6 +135,15 @@ export default withMermaid({
           { text: 'Elasticsearch', link: '/note/4.middleware/1.Elasticsearch/0001.Elasticsearch安装.md' },
         ]
       },
+      // {
+      //   text: '案例',
+      //   items: [
+      //     { text: 'Spring Boot系列', link: '/note/4.middleware/2.Nginx/1.Nginx 简介.md' },
+      //     { text: 'Kafka', link: '/note/4.middleware/3.Kafka/1.消息队列流派.md' },
+      //     { text: 'RabbitMq', link: '/note/4.middleware/4.RabbitMq/1.消息队列的流派.md' },
+      //     { text: 'Elasticsearch', link: '/note/4.middleware/1.Elasticsearch/0001.Elasticsearch安装.md' },
+      //   ]
+      // },
     ],
 
 

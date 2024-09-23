@@ -24,9 +24,11 @@
       text: 'Docker',
       base: '/note/3.Cloudnative/1.Docker/',
       items: [
-        { text: '概述', link: '1.概述.md' },
-        { text: '安装', link: '2.安装.md' },
-        { text: '常用命令', link: '3.常用命令.md' },
+        { text: '基础篇', link: '1.基础篇.md' },
+        { text: '常用命令', link: '2.常用命令.md' },
+        { text: 'DockerFile', items:[
+            { text: '镜像原理', link: '3.1.DockerFile-原理篇.md' },
+          ] },
         { text: '镜像', link: '4.镜像.md' },
         { text: '容器数据卷', link: '5.容器数据卷.md' },      
         { text: 'DockerFile', link: '6.DockerFile.md' }, 
@@ -35,7 +37,7 @@
         { text: 'IDEA整合Docker', link: '9.IDEA整合Docker.md' }, 
 
         { text: 'Other', items:[
-          { text: '基础篇', link: '0010.Docker-基础篇.md' },
+          { text: '基础篇', link: '1.基础篇.md' },
           { text: 'CI CD', link: '0020.Docker-CICD.md' },
           { text: '镜像原理', link: '0030.Docker镜像原理.md' },
           { text: '私有仓库', link: '0040.Docker私有仓库.md' },

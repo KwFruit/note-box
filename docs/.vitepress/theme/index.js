@@ -8,6 +8,9 @@ import './style/blur.css';
 import './style/blockquote.css';
 import HomeUnderline from "./components/HomeUnderline.vue"
 import confetti from "./components/confetti.vue";
+import { h } from 'vue'
+import { useData } from 'vitepress'
+
 
 export default {
   extends: DefaultTheme,
@@ -19,4 +22,5 @@ export default {
         app.component('confetti' , confetti)
 
   }
+
 }
