@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@braintree/sanitize-url':
+        specifier: ^7.1.0
+        version: 7.1.0
       dayjs:
         specifier: ^1.11.13
         version: 1.11.13
@@ -114,6 +117,9 @@ packages:
 
   '@braintree/sanitize-url@6.0.4':
     resolution: {integrity: sha512-s3jaWicZd0pkP0jf5ysyHUI/RE7MHos6qlToFcGWXVp+ykHOy77OUMrfbgJ9it2C5bow7OIQwYYaHjk9XlBQ2A==, tarball: https://registry.npmmirror.com/@braintree/sanitize-url/-/sanitize-url-6.0.4.tgz}
+
+  '@braintree/sanitize-url@7.1.0':
+    resolution: {integrity: sha512-o+UlMLt49RvtCASlOMW0AkHnabN9wR9rwCCherxO0yG4Npy34GkvrAqdXQvrhNs+jh+gkK8gB8Lf05qL/O7KWg==, tarball: https://registry.npmmirror.com/@braintree/sanitize-url/-/sanitize-url-7.1.0.tgz}
 
   '@docsearch/css@3.6.1':
     resolution: {integrity: sha512-VtVb5DS+0hRIprU2CO6ZQjK2Zg4QU5HrDM1+ix6rT0umsYvFvatMAnf97NHZlVWDaaLlx7GRfR/7FikANiM2Fg==}
@@ -1292,6 +1298,8 @@ snapshots:
       to-fast-properties: 2.0.0
 
   '@braintree/sanitize-url@6.0.4': {}
+
+  '@braintree/sanitize-url@7.1.0': {}
 
   '@docsearch/css@3.6.1': {}
 
