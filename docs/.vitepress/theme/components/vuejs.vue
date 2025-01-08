@@ -8,7 +8,7 @@
 
     <!-- 描述 -->
     <div class="describe">
-      <p>青，取之于蓝，而青于蓝；冰，水为之，而寒于水。    --荀子〔劝学〕</p>
+      <p>we stand on the shoulders of giants and reach higher.</p>
     </div>
 
     <!-- 按钮 -->
