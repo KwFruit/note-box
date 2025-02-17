@@ -49,6 +49,7 @@ export default withMermaid({
     nav: [
       { text: '首页', link: '/' },
       { text: '🥝 目录', link: '/guide/' },
+
       {
         //下拉菜单
         text: '其他站点',

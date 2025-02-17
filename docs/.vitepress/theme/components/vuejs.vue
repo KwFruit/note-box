@@ -3,12 +3,12 @@
 
     <!-- 标题 -->
     <h1 class="text">
-      NoteCove's <span>知识库</span>
+      NoteCove <span>知识库</span>
     </h1>
 
     <!-- 描述 -->
     <div class="describe">
-      <p>we stand on the shoulders of giants and reach higher.</p>
+      <p>记录未知之境</p>
     </div>
 
     <!-- 按钮 -->
@@ -93,7 +93,8 @@
   color: var(--vp-c-text-2);
   margin-top: 2rem;
   text-align: center;
-  font-size: 16px;
+  font-size: 1.175rem;
+  font-weight: 700;
   line-height: 1.5rem;
   max-width: 360px;
   line-height: 1.625;
@@ -101,7 +102,8 @@
 
 @media (min-width: 576px) {
   .vcontainer .describe {
-    font-size: 24px;
+    font-size: 1.875rem;
+    font-weight: 700;
     margin-top: 2.5rem;
     max-width: 480px;
     line-height: 2rem;
